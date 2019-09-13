@@ -127,13 +127,12 @@ variable "icp_config_file" {
   default     = "/dev/null"
 }
 
-/* 
+
 variable "icp_configuration" {
   description = "Configuration items for ICP installation."
   type        = "map"
-  default     = {}
 }
-*/
+
 
 variable "config_strategy" {
   description  = "Strategy for original config.yaml shipped with ICP. Default is merge, everything else means override"
